@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/wallpaper.png');
+    background-size: cover;
+    background-repeat: repeat-1;
+    background-position: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.titulo-avaliacoes {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 2px black;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.avaliacao {
+    color: black;
+}
